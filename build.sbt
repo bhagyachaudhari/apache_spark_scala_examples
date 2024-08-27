@@ -11,3 +11,10 @@ lazy val root = (project in file("."))
 libraryDependencies += "org.apache.spark" %% "spark-core" % "3.5.2"
 // https://mvnrepository.com/artifact/org.apache.spark/spark-sql
 libraryDependencies += "org.apache.spark" %% "spark-sql" % "3.5.2"
+// https://mvnrepository.com/artifact/com.databricks/spark-xml
+//libraryDependencies += "com.databricks" %% "spark-xml" % "0.2.0"
+// https://mvnrepository.com/artifact/com.thoughtworks.xstream/xstream
+//libraryDependencies += "com.thoughtworks.xstream" % "xstream" % "1.4.17"
+// https://mvnrepository.com/artifact/org.apache.spark/spark-streaming
+libraryDependencies += "org.apache.spark" %% "spark-streaming" % "3.5.2"
+
