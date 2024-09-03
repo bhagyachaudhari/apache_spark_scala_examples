@@ -4,6 +4,10 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 import org.apache.spark.{SparkConf, SparkContext}
 
+/**
+ *  nc -lk 9999
+ */
+
 object FirstApp extends App{
 
   /*val conf = new SparkConf().setAppName("SparkStreaming")
